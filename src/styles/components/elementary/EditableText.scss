@@ -1,0 +1,21 @@
+.editable-text {
+  box-sizing: border-box;
+  border: dashed 1px transparent;
+  width: 100%;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin: 5px;
+  padding: 1px;
+  vertical-align: baseline;
+}
+
+.editable-text:hover {
+  border: dashed 1px #878181;
+  box-sizing: border-box;
+}
+
+input .editable-text {
+  width: 100%;
+}
